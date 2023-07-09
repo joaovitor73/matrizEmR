@@ -13,7 +13,7 @@ print(det(C)) #Determinante da matriz
 
 #b) inv(C): calcula a inversa de C
 cat("\n\n","Inversa da matriz C: ", "\n\n")
-solve(C) #matriz inversa
+print(solve(C)) #matriz inversa
 
 #2. Dadas as matrizes A e B, calcule:
 data2 <- c(2,6,7,-5,-6,3,5,4,-2)
