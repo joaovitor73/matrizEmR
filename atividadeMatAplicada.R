@@ -1,17 +1,17 @@
 #1. Defina a matriz C = [2 1 -3; -3 0 2; 5 1 3]
 
-data <- c(2,1,-3,0,2,1,5,1,3) #Valores
+data <- c(2,1,-3,0,2,1,5,1,3) #Vetor
 
 C <- matrix(data,3,3,TRUE) #Criando matriz
 
 cat("\n\n","Matriz C: ", "\n\n")
 print(C) #plotando
 
-# a) det(A): calcula o determinante
+# a) det(C): calcula o determinante
 cat("\n\n","Determinante da matriz C: ", "\n\n")
 print(det(C)) #Determinante da matriz
 
-#b) inv(A): calcula a inversa de A
+#b) inv(C): calcula a inversa de C
 cat("\n\n","Inversa da matriz C: ", "\n\n")
 solve(C) #matriz inversa
 
@@ -37,7 +37,7 @@ print(det(A+B)) #soma as matrizes e encontra seu determinante
 
 #c) det(AB)
 cat("\n\n","det(AB): ", "\n\n")
-print(det(A%*%B)) #soma da multiplicação de matrizes 
+print(det(A%*%B)) #multiplica as matrizes e depois encontra o seu determinante
 
 #d) Adj(A)
 cat("\n\n","Adjunta de A: ", "\n\n")
